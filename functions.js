@@ -70,7 +70,7 @@ function calculate(HW1, HW2, HW3, HW1d, HW2d, HW3d) {
     };
 
          // show the result as div in html 
-         $("#results").show(350);
+         $("#results").slideDown(350);
          $("#results").append("<div>"+percent+"</div>");
             if(percent >= 60)
                 $("#results div:last").addClass("pass");
